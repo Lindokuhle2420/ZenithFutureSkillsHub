@@ -1,15 +1,17 @@
 # Zenith Future Skills Hub
-## Module 1 Reflection
+## Module 3 
+## Languge : HTML
 ### Cohort 1
 ### Full Name
 Lindokuhle Kubeka
-### What did I learn during Module 1?
-The importance of knowing a computer's specifications before buying one.
-A file becomes a file if it has an extension>
-How to install softwares and actually inspect if it is installed in the powershell terminal
-The using of shortcuts when writing code 
-Searching problems like a developer
-### Which tool did I enjoy using the most?
-Visual Studio Code
+
+## What is all To find in Module 3?
+All things HTML, going from
+-HTML lists 
+-HTML links
+-HTML images
+-HTML video
+-HTML audio
+...and many more
 ### What do I still need to practise?
-I still need to practise the habits of a professional developer like practising meaningful file naming for one!
+How to embed video links and how to also choose the perfect formattingg of images and videos
