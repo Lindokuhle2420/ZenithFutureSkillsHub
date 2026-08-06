@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>contact</title>
-    <link rel="icon" href="contact html.jpg" type="image/icon"
+    <link rel="icon" href="Media-For-HTML/Day-2/contact html.jpg" type="image/icon"
   </head>
 
 
-  <main>
+  <main><!-- Below shows the main sections of the webpage-->
   <body>
     <nav>
      <a href="Index.html">Home|</a>
@@ -29,6 +29,71 @@
     <li>LinkedIn:<a href="https://www.linkedin.com/in/lindokuhle-kubeka-935933236/" class="social-icon" target="_blank">Lindokuhle Kubeka</a></li>
     </ul> <br><br>
     </section> 
+
+    <section><!--this section appears to show a form-->
+      <h2> Contact Form</h2>
+
+      <form>
+        <label for="fname">Full Name</label><br>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" required>
+        <br><br>
+
+        <label for="Email">Email Address</label><br>
+        <input type="Email" placeholder="Enter Your Email Address" required>
+        <br><br>
+
+        <label for="Age">Age</label><br>
+        <input type="number" id="Age">
+        <br><br>
+
+
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob">
+        <br><br>    
+
+        <label for="province"> Provinces</label><br>
+        <select id="province">
+         <option>Limpopo</option>
+         <option>Mpumalanga</option>
+         <option>Gauteng</option>
+         <option>Free State</option>
+         <option>KwaZulu-Natal</option>
+         <option>Western Cape</option>
+         <option>Nortgern Cape</option>
+         <option>North West</option>
+         <option>Eastern Cape</option>
+        </select>
+
+        <h2>Message</h2>
+        <textarea name="message" rows="15 " cols="20"> 
+        </textarea>
+        <br><br>
+
+        <p>Gnder</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+  
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <input type="radio" id="prefernot" name="gender">
+        <label for="prefernot">Prefer not to say</label>
+        <br><br>
+
+        <button>Reset</button>
+        <button>Submit</button>
+
+
+
+        
+       
+        <br><br>
+      </form>
+    </section>
 </body>
 </main>
 
