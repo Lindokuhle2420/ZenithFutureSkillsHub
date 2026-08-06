@@ -3,10 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title>Home</title>
-    <!--Below is HTML Favicon-->
-    <link rel="icon" href="Iconic.jpeg" type="image/icon">
+    <link rel="icon" href="Media-For-HTML/Day-2/Iconic.jpeg" type="image/icon">
+    
+    <!--this style applies to the table below-->
+    <style>
+        table ,th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        th, td {
+            padding-top: 10px;
+            padding-bottom: 6px;
+            padding-right: 6px;
+        }
+    </style>
   </head>
+
+  <header>
+     <!--Below are links to diferrent webpages related to the website developed-->
+    <nav>
+    <a href="Index.html">Home |</a>
+    <a href="contact.html"> Contact |</a>
+    <a href="about.html">About |</a>
+    </nav>
+  </header>
+
+  <main>
   <body>
+    <section>
     <!--This section below outlines details behind the developer of the website-->
     <h1>Journey of an Upcoming Developer</h1>
     <h2>Preface</h2>
@@ -14,9 +38,12 @@
         It has been a challenging journey where I have been strecthed and challenge as a professional in areas<br>
          of creativity, problem-solving and critical thinking and more.I am an Accountant by profession but I<br>
          have an interest in Technology and everything concerning the industry.</p>
-    <img src="Self image html.jpg" alt="profile-picture" width="250" height="300">
+    <img src="Media-For-HTML/Day-2/Self image html.jpg" alt="profile-picture" width="250" height="300">
     <hr>
     <!--this section below contains different kinds of HTML lists-->
+    </section>
+
+    <section>
     <h2>Tools and Skills Acquired</h2>
     <h3>Languages Learned</h3>
     <ul>
@@ -26,7 +53,10 @@
         <li>SQL</li>
         <li>CSS</li>
     </ul>
+    </section>
     <br>
+
+    <section>
     <h3> Tools</h3>
     <dl>
         <dt><strong>Git</strong></dt>
@@ -37,15 +67,16 @@
         <dt><strong>Visual Studio Code</strong></dt>
         <dd>a free, open-source, lightweight source code editor developed by Microsoft that runs on Windows, macOS, and Linux</dd>
     </dl>
-    <img src="GitHub HTML.jpeg" alt="image of Github logo" width="100" height="100">
-    <img src="Git.jpg" alt="image of gitbash logo" width="100" height="100">
-    <img src="VSC image.jpeg" ALT="image of vsc logo" width="100" height="100">
+    <img src="Media-For-HTML/Day-2/GitHub HTML.jpeg" alt="image of Github logo" width="100" height="100">
+    <img src="Media-For-HTML/Day-2/Git.jpg" alt="image of gitbash logo" width="100" height="100">
+    <img src="Media-For-HTML/Day-2/VSC image.jpeg" ALT="image of vsc logo" width="100" height="100">
 
     <h3>Portfolio For Evidence</h3>
     <a href="https://github.com/Lindokuhle2420A" target="_self">GitHub Profile</a>
     <p>Learn How To Create Your own GitHub profile</p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RnWDKWmaQ8s?si=IzZ5LFhKiNOn5Iyz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <br>
+    </section>
 
     <p>Music Video</p>
     <video width="300" controls>
@@ -64,10 +95,60 @@
     <p>Location</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575.9537098033156!2d28.142777975419378!3d-26.32799837700056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951b9eeb590e5b%3A0xd87b6d31332a39e5!2sLetsoho%20Shopping%20Centre!5e0!3m2!1sen!2sza!4v1785801550396!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <br>
-
-    <!--Below are links to diferrent webpages related to the website developed-->
-    <a href="Index.html">Home</a>
-    <a href="contact.html">|Contact</a>
-    <a href="about.html">About|</a>
     </body>
+    </main><br>
+    <br>
+
+    <section><!--this section is for a table-->
+      <h2>Students Information</h2>
+      <table style="width:50%">
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Age</th>
+        <th rowspan="2">City</th>
+
+        <tr>
+            <td>Mandisa</td>
+            <td>Khumalo</td>
+            <td>27</td>
+            <td>Durban</td>
+        </tr>
+
+        <tr>
+            <td>Mpho</td>
+            <td>Modise</td>
+            <td>22</td>
+            <td>Durban</td>
+        </tr>
+        
+        <tr>
+            <td>Phumlani</td>
+            <td>Mabaso</td>
+            <td>29</td>
+            <td>Pretoria</td>
+        </tr>
+
+        <tr>
+            <td>Sabelo</td>
+            <td>Khuzwayo</td>
+            <td>36</td>
+            <td>Polokwane</td>
+        </tr>
+        <tr>
+        <td>Jabulani</td>
+        <td>Qwabe</td>
+        <td>43</td>
+        <td>Johannesburg</td>
+
+        </tr>
+
+      </table>
+    </section>
+    
+    <!--this appears at the below of the webpage-->
+    <footer>
+        <br><br>
+     &copy Lindokuhle Kubeka. All rights reserved.
+    </footer>
+
 </html>
